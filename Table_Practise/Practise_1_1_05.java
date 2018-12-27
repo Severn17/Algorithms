@@ -21,7 +21,29 @@ public class Practise_1_1_05 {
         }
     }
 
+    /*
+     * 判断该数是否为质数
+     * 质数又称素数 在大于1的自然数中，除了1和它本身以外不再有其他因数
+     */
+    private static boolean isPrime(int N) {
+        if (N < 2) return false;
+        for (int i = 2; i * i <= N; i++)
+            if (N % i == 0)
+                return false;
+        return true;
+    }
+    /*
+     * 计算平方根(牛顿迭代法)
+     *
+     */
+    private static double sqrt(double c){
+        return c;
+    }
+
     public static void main(String[] args) {
         StdOut.println(abs(-3));
+        int prime = 11;
+        StdOut.println(String.format("%s 是否为质数 %s", prime, isPrime(prime)));
+        // TODO
     }
 }
