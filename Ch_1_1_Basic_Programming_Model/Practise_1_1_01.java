@@ -7,7 +7,7 @@ import edu.princeton.cs.algs4.*;
  * @BelongsPackage: Ch_1_1_Basic_Programming_Model
  * @Author: Severn
  * @CreateTime: 2018-12-18 14:19
- * @Description: ${java基础}
+ * @Description: ${练习1.1.1}
  */
 public class Practise_1_1_01 {
     public static void main(String[] args) {
